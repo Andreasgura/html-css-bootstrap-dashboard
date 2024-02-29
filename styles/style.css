@@ -19,3 +19,25 @@ main {
 #main-content {
     width: calc(100% - 150px)
 }
+#wrapper .card {
+    margin-bottom: 10px;
+}
+#wrapper .table-hover {
+    cursor: pointer;
+}
+
+#data-inizio,
+#azioni {
+    width: 100px;
+}
+#roi,
+#stato {
+    width: 70px;
+}
+/* td:nth-child(1):before {
+    content: '';
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: red;
+} */
