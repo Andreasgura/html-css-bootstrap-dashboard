@@ -1,0 +1,21 @@
+:root {
+	--color-main-toolbar: #1b72e8;
+	--color-sidebar: #051e34;
+}
+
+nav {
+    height: 80px;
+}
+main {
+    padding-top: 80px;
+}
+#sidebar {
+    width: 150px ;
+    background-color: var(--color-sidebar);
+}
+#main-toolbar {
+    background-color: var(--color-main-toolbar);
+}
+#main-content {
+    width: calc(100% - 150px)
+}
