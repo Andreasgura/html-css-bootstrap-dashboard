@@ -24,19 +24,95 @@
           </div>
         </div>
         <div class="flex-grow-1">
-          <div class="w-100 ">
-            <form class="d-flex input-group" role="search">
+          <div class="w-100 as-bg-navsearch">
+            <form class="input-group" role="search">
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
               <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
             </form>
           </div>
         </div>
         <div>
-          <div class="container-fluid d-flex justify-content-between">
+          <div class="container-fluid d-flex justify-content-between align-items-center">
             <span><i class="fa-solid fa-bars"></i></span>
             <span><i class="fa-solid fa-circle-question"></i></span>
             <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-            <span><i class="fa-solid fa-bell"></i></span>
+            <div class="d-inline-block">
+              <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"><span><i class="fa-solid fa-bell"></i></span>
+              </button>
+          
+              <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="nome" class="form-label">Nome</label>
+                      <input type="text" class="form-control" aria-label="Nome" id="nome">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="cognome" class="form-label">Cognome</label>
+                      <input type="text" class="form-control" aria-label="Cognome" id="cognome">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <label for="foto" class="form-label">Foto</label>
+                      <input type="file" class="form-control" id="foto">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Seleziona per proseguire
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Salva</button>
+                      <button type="submit" class="as-bg-svuota btn btn-primary">Svuota</button>
+                    </div>
+                    
+                    
+                  </form>
+                </div>
+              </div>
+          </div>
           </div>
         </div>
 

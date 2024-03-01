@@ -2,6 +2,8 @@
 	--color-main-toolbar: #1b72e8;
 	--color-sidebar: #051e34;
     --color-ms-bg-badge: #032a96;
+    --color-bell: #ff8f00;
+    --color-bg-searchbar: #E5E5E5;
 }
 
 nav {
@@ -14,6 +16,17 @@ nav>div:not(:nth-child(2)) {
 
 nav i:hover {
     cursor: pointer;
+}
+
+nav .fa-solid.fa-bell {
+    color: var(--color-bell);
+}
+.as-bg-navsearch>.input-group>.form-control {
+    background-color: var(--color-bg-searchbar);
+}
+
+button.as-bg-svuota {
+    background-color: var(--color-bell);
 }
 
 main {
