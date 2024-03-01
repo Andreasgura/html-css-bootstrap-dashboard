@@ -14,9 +14,34 @@
 </head>
 
 <body>
-    <nav class="fixed-top bg-danger ">
-        navbar
-    </nav>
+    
+      <nav class="navbar fixed-top bg-body-tertiary">
+        <div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./img/img/logo.svg" alt="Logo"  class="d-inline-block align-text-top">
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow-1">
+          <div class="w-100 ">
+            <form class="d-flex input-group" role="search">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+            </form>
+          </div>
+        </div>
+        <div>
+          <div class="container-fluid d-flex justify-content-between">
+            <span><i class="fa-solid fa-bars"></i></span>
+            <span><i class="fa-solid fa-circle-question"></i></span>
+            <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            <span><i class="fa-solid fa-bell"></i></span>
+          </div>
+        </div>
+
+      </nav>
+    
 
     <main class="vh-100 d-flex">
         <!-- SIDEBAR -->
@@ -52,7 +77,7 @@
                           <span class="badge d-xl-none">
                             <i class="fa-solid fa-plus"></i>
                           </span>
-                          <div class="d-none d-xl-block ">
+                          <div class="d-none d-xl-inline-block ">
                             <span class="badge">Boolean mobile web app</span>
                             <span class="badge">Boolean mobile web app</span>
                             <span class="badge">Boolean mobile web app</span>
