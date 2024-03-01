@@ -13,6 +13,7 @@ main {
 #sidebar {
     width: 150px ;
     background-color: var(--color-sidebar);
+    font-size: small;
 }
 #main-toolbar {
     background-color: var(--color-main-toolbar);
