@@ -1,6 +1,7 @@
 :root {
 	--color-main-toolbar: #1b72e8;
 	--color-sidebar: #051e34;
+    --color-ms-bg-badge: #032a96;
 }
 
 nav {
@@ -40,4 +41,24 @@ main {
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: red;
+} */
+td div {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 30px;
+    aspect-ratio: 1/1;
+
+}
+
+#main-toolbar .badge {
+    background-color: var(--color-ms-bg-badge);
+}
+
+/* #sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#sidebar a {
+
 } */
